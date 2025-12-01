@@ -1,0 +1,96 @@
+/* Fullscreen header */
+.header-fullscreen {
+  height: 100vh;
+  /* occupa tutta la schermata */
+  width: 100%;
+  background-image: url('/public/images/progetto1.png');
+  /* sostituisci con la tua immagine */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Overlay per rendere leggibile il testo */
+.header-fullscreen .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px 20px;
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+/* Titolo artista */
+.header-fullscreen h1 {
+  font-size: 5vw;
+  /* scala in base alla larghezza dello schermo */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Navigazione */
+.header-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+  color: #ff5a5f;
+  /* colore accent minimal */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .header-fullscreen h1 {
+    font-size: 6vw;
+  }
+
+  .header-nav a {
+    font-size: 2vw;
+    margin: 0 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header-fullscreen {
+    height: 100vh;
+  }
+
+  .header-fullscreen h1 {
+    font-size: 8vw;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-nav a {
+    font-size: 4vw;
+    margin: 0;
+  }
+}
+
+/* Piccoli dispositivi */
+@media (max-width: 480px) {
+  .header-fullscreen h1 {
+    font-size: 10vw;
+  }
+
+  .header-nav a {
+    font-size: 5vw;
+  }
+
+  .header-fullscreen .overlay {
+    padding: 20px 15px;
+  }
+}

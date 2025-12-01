@@ -1,0 +1,111 @@
+.player-advanced {
+    background-color: #fefefe;
+    color: #111;
+    max-width: 600px;
+    width: 95%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-icon:hover svg {
+    fill: #ff5a5f;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0;
+    accent-color: #ff5a5f;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.volume-slider {
+    flex-grow: 1;
+}
+
+.playlist {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.playlist-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.playlist-item:hover {
+    background-color: #f0f0f0;
+}
+
+.playlist-item.active {
+    background-color: #e0e0e0;
+    font-weight: 500;
+}
+
+.buy-button-container {
+    margin-top: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #ff5a5f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: #e0484d;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .player-advanced {
+        padding: 15px;
+    }
+
+    .controls {
+        gap: 12px;
+    }
+
+    .btn-icon {
+        width: 40px;
+        height: 40px;
+    }
+}

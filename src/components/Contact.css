@@ -1,0 +1,32 @@
+.contact {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
