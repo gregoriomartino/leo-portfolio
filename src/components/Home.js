@@ -2,12 +2,16 @@ import React from 'react';
 import './Home.css';
 
 function Home() {
-  return (
-    <section id="home" className="home">
-      <h2>Benvenuto!</h2>
-      <p>Ciao, sono Leo e questo è il mio portfolio.</p>
-    </section>
-  );
+    return (
+        <div className="home-container">
+            <div className="header-fullscreen">
+                <h1>Leonardo Melchionda</h1>
+                <p className="subtitle">
+                    guitarist, sound artist, researcher
+                </p>
+            </div>
+        </div>
+    );
 }
 
 export default Home;

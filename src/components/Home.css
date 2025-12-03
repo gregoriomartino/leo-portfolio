@@ -1,12 +1,54 @@
-.home {
-  padding: 50px 20px;
-  background-color: #f4f4f4;
+@font-face {
+  font-family: 'Spectral';
+  src: url('/public/fonts/Spectral-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-.home h2 {
-  margin-bottom: 15px;
+/* Header fullscreen */
+.header-fullscreen {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/public/images/progetto1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  /* per mettere sottotitolo sotto H1 */
+  justify-content: flex-start;
+  text-align: left;
+  /* sottotitolo a sinistra */
+  color: #e0c3fc;
+  padding: 15vh 10%;
+  /* margine alto e lato sinistro/destro */
+  box-sizing: border-box;
 }
 
-.home p {
-  font-size: 18px;
+.header-fullscreen h1 {
+  font-family: 'Spectral', serif;
+  font-weight: 700;
+  font-size: 5vw;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .header-fullscreen h1 {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-fullscreen h1 {
+    font-size: 8vw;
+    padding-top: 15vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-fullscreen h1 {
+    font-size: 10vw;
+    padding-top: 10vh;
+  }
 }

@@ -1,0 +1,52 @@
+.research {
+    width: 100%;
+    background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Spectral', serif;
+}
+
+.research .content {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titolo */
+.research h2 {
+    font-weight: 500;
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    line-height: 1.5;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+/* Paragrafo */
+.research p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Immagine */
+.research .image {
+    width: 100%;
+    max-width: 650px;
+    margin: 30px auto 0;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+/* Link */
+.research a {
+    color: #1a4c73;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.research a:hover {
+    opacity: .7;
+}
