@@ -1,28 +1,26 @@
 .footer {
-    background-color: #222;
-    color: white;
-    padding: 20px 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
+    color: #fff;
     text-align: center;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    box-sizing: border-box;
 }
 
-.footer .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.footer p {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
 }
 
-.footer .social-links a {
-    color: white;
-    text-decoration: none;
-}
 
-.footer .social-links a:hover {
-    text-decoration: underline;
-}
 
-@media (max-width: 480px) {
-    .footer .social-links {
-        flex-direction: column;
-        gap: 5px;
+/* Responsive */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 5%;
     }
+
+
 }
