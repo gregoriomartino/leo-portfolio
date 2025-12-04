@@ -1,42 +1,32 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Research.css';
 
+
+
+
+
 function Research() {
+    const { t } = useTranslation();
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = "/images/ANDA.PNG";
+    }, []);
+
     return (
-        <section id="research" className="research">
+        <section id="research" className="research page-container">
             <div className="content">
-                <h2>
-                    Multisensory Sounds: towards an accessible experience of music
-                    for Deaf and Hard of Hearing people.
-                </h2>
+                <h2>{t("research.title")}</h2>
+
+                <p>{t("research.description1")}</p>
+
+                <p>{t("research.description2")}</p>
 
                 <p>
-                    This research studies innovative compositional and performative practices
-                    to facilitate multisensory experiences of music accessible to Deaf and hard
-                    of hearing people through vibrotactile systems to stimulate haptic perception
-                    of sound. It also studies the possibilities to facilitate a better music
-                    appreciation for cochlear implant users by developing a specific protocol
-                    of neurosensory rehabilitation to listening.
-                </p>
-
-                <p>
-                    Developed in a multidisciplinary context, this research collaborates with
-                    the otolaryngology department of the University Hospital in Siena, and with
-                    the biorobotics institutes of the University of Siena and the School of Advanced
-                    Studies Sant'Anna in Pisa. It adopts a qualitative methodology based on
-                    collective composition workshops, interviews, and focus groups. The expected
-                    results include an accessible multisensory performance and a dissertation
-                    documenting the entire process.
-                </p>
-
-                <p>
-                    Scientific poster presentation at the Third ANDA Conference at the
-                    “A. Vivaldi” Conservatory of Music in Alessandria, 17-19 October 2025;
-                    more info:
-                    <a href="https://www.anda-afam.it/alessandria/"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {' '}(ANDA website)
+                    {t("research.presentation")}
+                    <a href="https://www.anda-afam.it/alessandria/" target="_blank" rel="noopener noreferrer">
+                        (ANDA website)
                     </a>
                 </p>
 

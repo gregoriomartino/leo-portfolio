@@ -1,0 +1,47 @@
+{
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "research": "Research",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Leonardo Melchionda",
+        "subtitle": "guitarist, sound artist, researcher"
+    },
+    "projects": {
+        "title": "UPCOMING ALBUM RELEASE",
+        "albumTitle": "998\nPrelude Fugue Allegro",
+        "description": "998 is a transformative sonic journey.\n\nGuided by the phantasmagoric sound of an orange electric guitar, this experience leads to discovering an unforeseen horizon where different music styles resonate together. J.S. Bach’s masterpiece Prelude, Fugue, Allegro (BWV 998) is the starting point from which a sonic constellation of new music languages is shaped around drone music, avant-garde, post-rock, psychedelic music and minimalism.\n\nIn 998 the compositional material of Bach's piece - originally written for the lautenwerk, a keyboard instrument similar to the harpsichord but sounding like the archlute - is deconstructed and distorted as if it goes through an existential trip made of electric sounds. While preserving the work’s original three-part development, this interpretative invention for electric guitar traces a path that begins with the intuition of the higher harmonics revealed by the long sustained tones of the Prelude, then resolves into the hypnotic repetition of the Fugue’s subject as it varies and layers over time, building toward imposing walls of noise at the moment of maximum paroxysm, only to disintegrate in an instant and finally rise again in the ethereal chord progressions of the Allegro.\n\n998 spins upon itself, eventually returning to new life and inspiring multiple imaginary scenarios of listening and creation. This music outlines a tour through distant musical styles celebrating the pure essence and energy of sound.\n\nLeonardo Melchionda, electric guitar\n\nMusic composed and performed by Leonardo Melchionda.\n\nReleased on Setola di Maiale, 23th January 2026."
+    },
+    "research": {
+        "title": "Multisensory Sounds: towards an accessible experience of music for Deaf and Hard of Hearing people",
+        "description1": "This research studies innovative compositional and performative practices to facilitate multisensory experiences of music accessible to Deaf and hard of hearing people through vibrotactile systems to stimulate haptic perception of sound. It also studies the possibilities to facilitate a better music appreciation for cochlear implant users by developing a specific protocol of neurosensory rehabilitation to listening.",
+        "description2": "Developed in a multidisciplinary context, this research collaborates with the otolaryngology department of the University Hospital in Siena, and with the biorobotics institutes of the University of Siena and the School of Advanced Studies Sant'Anna in Pisa. It adopts a qualitative methodology based on collective composition workshops, interviews, and focus groups. The expected results include an accessible multisensory performance and a dissertation documenting the entire process.",
+        "presentation": "Scientific poster presentation at the Third ANDA Conference at the “A. Vivaldi” Conservatory of Music in Alessandria, 17-19 October 2025;",
+        "altImage": "research"
+    },
+    "about": {
+        "description": "is a guitarist, composer, researcher and teacher, active in the field of classical, contemporary and experimental music, free improvisation, sound art, and multidisciplinary performance. Processing the guitar with refined electronics, translating the classical music forms into contemporary musical languages, setting the balance between musical notation and indeterminacy, stressing the physicality of the sound, enriching the musical performance with a variety of sensory phenomena, exploring the haptic potentiality of sound, are the specific features of his compositional process. Currently conducting a PhD research at the Conservatory of Siena (Italy) with research that investigates the relationship between music, multisensory performances and deaf accessibility. Among his original works are the electric guitar composition 998, the multisensory performance Beatitudine, the music-dance duo Together/Drifting. In January 2026, his debut record 998 is released on the Italian label Setola di Maiale. Performed with Anthony Braxton, Alvin Curran, Ictus ensemble, Fritz Hauser, Maurizio Pisati, Ellen Arkbro, Jessie Cox, among others. Performed in places such as AngelicA - Festival Internazionale di Musica, Accademia Filarmonica Romana (IT), Darmstädter Ferienkurse (DE), Muziekcentrum De Bijloke, Concertgebouw Brugge, Bozar Brussels (BE)."
+    },
+    "contact": {
+        "title": "Contact",
+        "music": {
+            "title": "Music, Guitar, Philosophy, Current Events, Life, Dreams"
+        },
+        "research": {
+            "title": "Research"
+        },
+        "collab": {
+            "title": "Collaborations and Bookings"
+        },
+        "follow": {
+            "title": "Follow Me"
+        }
+    },
+    "footer": {
+        "name": "Leonardo Melchionda",
+        "rights": "All rights reserved."
+    }
+}

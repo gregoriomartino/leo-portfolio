@@ -2,22 +2,14 @@
     height: 100vh;
     width: 100%;
     padding-top: 100px;
-    /* spazio sotto navbar fissa */
     box-sizing: border-box;
-
     display: block;
-    /* <-- niente flex: layout più stabile */
-
     background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
     background-size: cover;
     background-repeat: no-repeat;
-
     text-align: center;
-    /* <-- centra tutto orizzontalmente */
     font-family: 'Spectral', serif;
-
     overflow: hidden;
-    /* niente scroll */
 }
 
 .contact h2 {

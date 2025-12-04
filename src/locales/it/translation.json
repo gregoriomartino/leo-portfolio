@@ -1,0 +1,47 @@
+{
+    "nav": {
+        "home": "Home",
+        "projects": "Progetti",
+        "research": "Ricerca",
+        "about": "Biografia",
+        "contact": "Contatti"
+    },
+    "home": {
+        "title": "Leonardo Melchionda",
+        "subtitle": "chitarrista, sound artist, ricercatore"
+    },
+    "projects": {
+        "title": "PROSSIMA USCITA DELL'ALBUM",
+        "albumTitle": "998\nPreludio Fuga Allegro",
+        "description": "998 è un viaggio sonoro trasformativo.\n\nGuidato dal suono fantasmagorico di una chitarra elettrica arancione, questa esperienza conduce alla scoperta di un orizzonte imprevisto dove diversi stili musicali risuonano insieme. Il capolavoro di J.S. Bach Preludio, Fuga, Allegro (BWV 998) è il punto di partenza da cui si forma una costellazione sonora di nuovi linguaggi musicali intorno a drone, avanguardia, post-rock, musica psichedelica e minimalismo.\n\nIn 998 il materiale compositivo del brano di Bach - originariamente scritto per il lautenwerk, uno strumento a tastiera simile al clavicembalo ma dal suono simile all'archiluto - viene decostruito e distorto come se attraversasse un viaggio esistenziale di suoni elettrici. Pur preservando lo sviluppo originale in tre parti dell’opera, questa invenzione interpretativa per chitarra elettrica traccia un percorso che inizia con l’intuizione degli armonici superiori rivelati dalle lunghe note sostenute del Preludio, per poi risolversi nella ripetizione ipnotica del soggetto della Fuga mentre varia e si stratifica nel tempo, costruendo muri imponenti di rumore nel momento del parossismo massimo, per disintegrarsi in un istante e risorgere infine nelle eteree progressioni di accordi dell’Allegro.\n\n998 ruota su se stesso, tornando infine a nuova vita e ispirando molteplici scenari immaginari di ascolto e creazione. Questa musica traccia un tour tra stili musicali lontani celebrando la pura essenza e l’energia del suono.\n\nLeonardo Melchionda, chitarra elettrica\n\nMusica composta ed eseguita da Leonardo Melchionda.\n\nPubblicato da Setola di Maiale, 23 gennaio 2026."
+    },
+    "research": {
+        "title": "Multisensory Sounds: verso un'esperienza della musica accessibile per le persone Sorde e con ipoacusia",
+        "description1": "Questa ricerca indaga pratiche compositive e performative innovative per favorire esperienze multisensoriali della musica accessibili alle persone Sorde e con ipoacusia attraverso sistemi vibrotattili capaci di stimolare la percezione aptica del suono. Esplora inoltre come migliorare l’esperienza musicale degli utenti di impianto cocleare, elaborando un protocollo dedicato di riabilitazione neurosensoriale. Sebbene l’interesse verso questo ambito sia in crescita, emerge la necessità di ulteriori approfondimenti, soprattutto nel coinvolgimento diretto delle persone Sorde e ipoudenti nelle fasi sperimentali e nei processi di creazione artistica.",
+        "description2": "La ricerca si colloca in un contesto multidisciplinare collaborando con il reparto di otorinolaringoiatria dell’Azienda Ospedaliero-universitaria Senese e con gli istituti di biorobotica dell’Università di Siena e della Scuola Superiore Sant’Anna di Pisa. Adotta una metodologia qualitativa basata su laboratori di composizione collettiva, interviste aperte e focus group. I risultati attesi includono una performance multisensoriale accessibile e una dissertazione che documenti l’intero processo.",
+        "presentation": "Presentazione poster scientifico al Terzo Convegno ANDA presso il Conservatorio di Musica “A. Vivaldi” di Alessandria in data 17-19 ottobre 2025, maggiori informazioni al seguente link: https://www.anda-afam.it/alessandria/ ",
+        "altImage": "ricerca"
+    },
+    "about": {
+        "description": "è chitarrista, compositore, ricercatore e docente, attivo nella musica classica, contemporanea e sperimentale, improvvisazione libera, sound art, e performance multidisciplinare.Processare il suono della chitarra con la pratica elettronica, tradurre le forme della musica classica in linguaggi musicali contemporanei, impostare l'equilibrio tra notazione musicale e indeterminazione, sottolineare la fisicità del suono, arricchire la performance musicale con una varietà di fenomeni sensoriali, esplorare le potenzialità della percezione aptica del suono, sono le caratteristiche specifiche del suo processo compositivo. Attualmente conduce una ricerca di dottorato presso il Conservatorio di Siena indagando il rapporto tra musica, accessibilità multisensoriale e sordità. Alcuni dei suoi progetti originali includono il brano per chitarra elettrica 998, la performance multisensoriale Beatitudine, il duo musica-danza Together/Drifting. Nel gennaio 2026 pubblica il suo album di debutto 998 con l’etichetta italiana Setola di Maiale. Ha suonato e collaborato con Anthony Braxton, Alvin Curran, Ictus ensemble, Maurizio Pisati, Fritz Hauser, Ellen Arkbro, Jessie Cox, tra gli altri. Si è esibito in luoghi come Angelica - Festival Internazionale di Musica, Accademia Filarmonica Romana (IT), Darmstädter Ferienkurse (DE), Muziekcentrum De Bijloke, Concertgebouw Brugge, Bozar Brussels (BE)."
+    },
+    "contact": {
+        "title": "Contatti",
+        "music": {
+            "title": "Musica, Chitarra, Filosofia, Eventi Attuali, Vita, Sogni"
+        },
+        "research": {
+            "title": "Ricerca"
+        },
+        "collab": {
+            "title": "Collaborazioni e Bookings"
+        },
+        "follow": {
+            "title": "Seguimi"
+        }
+    },
+    "footer": {
+        "name": "Leonardo Melchionda",
+        "rights": "Tutti i diritti riservati."
+    }
+}

@@ -2,7 +2,6 @@
     min-height: calc(100vh - 150px);
     max-width: 100%;
     padding-top: 100px;
-    /* per evitare margine collassato */
     padding-bottom: 50px;
     background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
     background-size: fill;

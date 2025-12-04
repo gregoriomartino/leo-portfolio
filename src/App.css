@@ -1,66 +1,7 @@
-/* Impedisce lo scroll della pagina */
 html,
 body,
 #root {
   height: auto;
   margin: 0;
-
-  font-family: 'Spectral', serif;
-}
-
-/* Navbar sempre visibile */
-.header-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 15px 0;
-  z-index: 100;
-}
-
-.header-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 1rem;
-  transition: color 0.2s ease;
-}
-
-.header-nav a:hover {
-  color: #ffdd57;
-}
-
-/* Container principale per i contenuti */
-.page-container {
-  height: 100%;
-  max-width: 100%;
-  position: relative;
-}
-
-/* Contenuti centrati nello schermo */
-.page-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 900px;
-  text-align: center;
-  color: #fff;
-}
-
-/* FONT MEDIUM */
-@font-face {
-  font-family: 'Spectral';
-  src: url('/fonts/Spectral-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* USO DEL FONT */
-body {
   font-family: 'Spectral', serif;
 }

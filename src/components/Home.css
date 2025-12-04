@@ -10,7 +10,7 @@
 .header-fullscreen {
   height: 100vh;
   width: 100%;
-  background-image: url('/public/images/progetto1.jpg');
+  background-image: url('/public/images/progetto1.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -42,22 +42,37 @@
 }
 
 
+/* Media queries responsive */
+
+/* Tablet large */
 @media (max-width: 1024px) {
   .header-fullscreen h1 {
     font-size: 6vw;
   }
-}
 
-@media (max-width: 768px) {
-  .header-fullscreen h1 {
-    font-size: 8vw;
-
+  .subtitle {
+    font-size: 2.5vw;
   }
 }
 
+/* Tablet small / smartphone landscape */
+@media (max-width: 768px) {
+  .header-fullscreen h1 {
+    font-size: 8vw;
+  }
+
+  .subtitle {
+    font-size: 3.5vw;
+  }
+}
+
+/* Smartphone portrait */
 @media (max-width: 480px) {
   .header-fullscreen h1 {
     font-size: 10vw;
+  }
 
+  .subtitle {
+    font-size: 5vw;
   }
 }

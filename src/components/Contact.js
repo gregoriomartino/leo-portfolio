@@ -1,52 +1,42 @@
-import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Contact.css';
 
 function Contact() {
+    const { t } = useTranslation();
+
     return (
-        <section id="contact" className="contact">
-            <h2>Contact</h2>
+        <section id="contact" className="contact page-container">
+            <h2>{t('contact.title')}</h2>
 
             <div className="contact-block">
-                <h3>Music, Guitar, Philosophy, Current Events, Life, Dreams</h3>
+                <h3>{t('contact.music.title')}</h3>
                 <p>
-                    <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@leonardomelchionda.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="mailto:contact@leonardomelchionda.com">
                         contact@leonardomelchionda.com
                     </a>
                 </p>
             </div>
 
             <div className="contact-block">
-                <h3>Research</h3>
+                <h3>{t('contact.research.title')}</h3>
                 <p>
-                    <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=research@leonardo.melchionda@boccherini.it"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="mailto:leonardo.melchionda@boccherini.it">
                         leonardo.melchionda@boccherini.it
                     </a>
                 </p>
             </div>
 
             <div className="contact-block">
-                <h3>Collaborations and Bookings</h3>
+                <h3>{t('contact.collab.title')}</h3>
                 <p>
-                    <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=social@leonardomelchionda.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="mailto:social@leonardomelchionda.com">
                         social@leonardomelchionda.com
                     </a>
                 </p>
             </div>
 
             <div className="contact-block">
-                <h3>Follow Me</h3>
+                <h3>{t('contact.follow.title')}</h3>
                 <p>
                     <a href="https://leonardomelchionda.bandcamp.com/" target="_blank" rel="noreferrer">Bandcamp</a> |
                     <a href="https://www.youtube.com/@ledgtr92" target="_blank" rel="noreferrer"> YouTube</a> |
