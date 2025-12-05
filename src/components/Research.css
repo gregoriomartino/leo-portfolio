@@ -1,16 +1,18 @@
 .research {
     width: 100%;
     background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
+    padding: 100px 20px 50px 20px;
+    /* 20px di spazio ai lati */
     font-family: 'Spectral', serif;
+    box-sizing: border-box;
+    /* assicura che padding non aumenti la larghezza */
 }
 
 .research .content {
-    max-width: 900px;
     width: 100%;
     text-align: center;
+    max-width: none;
+    /* niente limite di larghezza */
 }
 
 /* Titolo */
@@ -34,8 +36,7 @@
 .research .image {
     width: 100%;
     max-width: 650px;
-    margin: 30px auto 0;
-    margin-bottom: 10px;
+    margin: 30px auto 10px auto;
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
     display: block;
@@ -50,4 +51,22 @@
 
 .research a:hover {
     opacity: .7;
+}
+
+.research-content p.full-width {
+    max-width: 100%;
+    /* nessun limite di larghezza */
+    text-align: left;
+    /* allinea il testo a sinistra */
+    padding: 0 20px;
+    /* spazio ai bordi */
+    margin: 0 auto 20px auto;
+}
+
+
+.research-content p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
 }

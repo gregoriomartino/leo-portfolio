@@ -13,7 +13,6 @@ function Home() {
     return (
         <div className="home-container">
             <div className="header-fullscreen">
-                {/* Titolo e sottotitolo tradotti */}
                 <h1>{t("home.title")}</h1>
                 <p className="subtitle">{t("home.subtitle")}</p>
             </div>

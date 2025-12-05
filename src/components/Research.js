@@ -16,7 +16,7 @@ function Research() {
 
     return (
         <section id="research" className="research page-container">
-            <div className="content">
+            <div className="research-content">
                 <h2>{t("research.title")}</h2>
 
                 <p>{t("research.description1")}</p>
