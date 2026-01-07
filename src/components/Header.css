@@ -1,3 +1,4 @@
+/* Navbar fissa in alto */
 .header-navbar {
   position: fixed;
   top: 0;
@@ -10,48 +11,114 @@
   box-sizing: border-box;
 }
 
+/* Contenitore link navbar */
 .header-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* larghezza massima navbar */
   gap: 5px;
-  /* spazio minimo tra link */
 }
 
+/* Link principali */
 .header-nav a {
-  color: #fff;
+  color: #E7F1FE;
   text-decoration: none;
+  text-shadow: 2px 2px 16px #030047;   /* shadow sempre attivo */
   font-weight: 500;
+  font-size: clamp(1rem, 1.4vw, 1.8rem);
   text-align: center;
   flex: 1;
-  /* occupa spazio uniforme */
-  font-size: clamp(0.7rem, 1.2vw, 1rem);
-  /* ridimensionamento automatico */
   white-space: nowrap;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
-/* Hover */
-.header-nav a:hover {
-  color: #0d0d0e;
+/* Hover / tap / focus: testo #030047 */
+.header-nav a:hover,
+.header-nav a:active,
+.header-nav a:focus {
+  color: #030047;
+  text-shadow: 0 0 4px #030047;
 }
 
+/* Link attivo (pagina corrente) */
+.header-nav .active {
+  color: #030047;                 /* colore per Projects / Research / About / Contact */
+  text-shadow: 0 0 12px #030047;
+}
+
+/* Home attiva: mantieni il colore originale */
+.header-nav .active.home-link {
+  color: #E7F1FE;
+  text-shadow: 2px 2px 16px #030047;
+}
+
+/* Switch lingua a destra */
 .lang-switch {
-  flex: 1;
+  flex: 0 0 auto;
   margin-left: auto;
   display: flex;
+  gap: 8px;
   margin-right: 15px;
 }
 
 .lang-switch button {
   background: none;
   border: none;
+  color: #e7f1fe;
+  text-shadow: 2px 2px 8px #030047;
   cursor: pointer;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, text-shadow 0.2s ease;
 }
 
 .lang-switch button:hover {
   opacity: 0.7;
+  text-shadow: 3px 3px 10px #030047;
+}
+
+/* Link fullscreen header */
+.header-fullscreen-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.header-fullscreen-link:hover .header-fullscreen {
+  opacity: 0.95;
+  transition: opacity 0.2s ease;
+}
+
+/* ---------- BREAKPOINTS MOBILE ---------- */
+
+/* Mobile generico (fino a 768px) */
+@media (max-width: 768px) {
+  .header-nav a {
+    font-size: 0.9rem;     /* testo più compatto ma leggibile */
+    padding: 8px 4px;      /* buona area di tap */
+  }
+}
+
+/* Max 375px (iPhone piccoli, ecc.) */
+@media (max-width: 375px) {
+  .header-nav a {
+    font-size: 0.8rem;
+    padding: 6px 2px;
+  }
+
+  .header-nav {
+    gap: 3px;              /* riduci spazio per evitare overflow */
+  }
+}
+
+/* Max 320px (schermi molto piccoli) */
+@media (max-width: 320px) {
+  .header-nav a {
+    font-size: 0.75rem;
+    padding: 4px 2px;
+  }
+
+  .header-nav {
+    gap: 2px;
+  }
 }

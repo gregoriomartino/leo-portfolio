@@ -1,7 +1,15 @@
+@font-face {
+  font-family: 'Zurich';
+  src: url('/fonts/Zurich-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body,
 #root {
   height: auto;
   margin: 0;
-  font-family: 'Spectral', serif;
+  font-family: 'Zurich', serif;
 }

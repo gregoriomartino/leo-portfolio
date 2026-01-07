@@ -1,75 +1,129 @@
 .projects {
-    min-height: calc(100vh - 150px);
-    max-width: 100%;
-    padding: 100px 20px 50px 20px;
-    background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
-    font-family: 'Spectral', serif;
+  min-height: calc(100vh - 150px);
+  max-width: 100%;
+  padding: 100px 20px 50px 20px;
+background: linear-gradient(120deg, #e7f1fe 0%, #e0e7ff 50%, #c8d6ff 100%);
+  font-family: 'Zurich', serif;
 }
 
 /* Titolo centrato */
 .projects-title {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects .image {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 30px auto;
 }
 
 .projects-title .pre {
-    display: block;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-    opacity: 0.85;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  opacity: 0.85;
 }
 
 .projects-title .main {
-    display: block;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 6px;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 6px;
 }
 
 .projects-title .sub {
-    display: block;
-    font-size: 24px;
-    font-style: italic;
-    opacity: 0.9;
+  display: block;
+  font-size: 24px;
+  font-style: italic;
+  opacity: 0.9;
 }
-
 
 /* Contenitore full-width */
 .projects-fullwidth {
-    width: 100%;
-    padding: 0 20px;
-    /* spazio dai bordi */
-    box-sizing: border-box;
-    margin-bottom: 30px;
+max-width: 1440px;
+ margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-fullwidth p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-    font-size: 1.2rem;
-    text-align: left;
-    color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #333;
 }
 
-/* Responsive */
+.bandcamp-player {
+  max-width: 400px;
+  margin: 20px auto 30px auto;
+}
+
+.bandcamp-iframe {
+  border: 0;
+  width: 100%;
+  height: 470px;
+}
+
+/* Responsive testo / titoli */
 @media (max-width: 768px) {
-    .projects-title .main {
-        font-size: 32px;
-    }
+  .projects-title .main {
+    font-size: 32px;
+  }
 
-    .projects-title .sub {
-        font-size: 18px;
-    }
+  .projects-title .sub {
+    font-size: 18px;
+  }
 
-    .projects-content h3 {
-        font-size: 1.5rem;
-    }
+  .projects-content h3 {
+    font-size: 1.5rem;
+  }
 
-    .projects-content p,
-    .projects-fullwidth p {
-        font-size: 1rem;
-    }
+  .projects-content p,
+  .projects-fullwidth p {
+    font-size: 1rem;
+  }
+}
+
+/* VIDEO FULL-SCREEN (desktop) */
+@media (min-width: 769px) {
+  .research-video {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;   /* uguale a projects-fullwidth */
+    margin: 100px auto 0;
+    height: auto;        /* lascia che l'iframe gestisca l'altezza */
+    aspect-ratio: 16 / 9;
+    z-index: 1;
+  }
+
+  .research-video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+/* VIDEO MOBILE: responsive ma non full-screen */
+@media (max-width: 768px) {
+  .research-video {
+    position: relative;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding-top: 56.25%; /* 16:9 */
+  }
+
+  .research-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 }

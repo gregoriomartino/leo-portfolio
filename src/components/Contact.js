@@ -6,7 +6,7 @@ function Contact() {
 
     return (
         <section id="contact" className="contact page-container">
-            <h2>{t('contact.title')}</h2>
+
 
             <div className="contact-block">
                 <h3>{t('contact.music.title')}</h3>
@@ -22,15 +22,6 @@ function Contact() {
                 <p>
                     <a href="mailto:leonardo.melchionda@boccherini.it">
                         leonardo.melchionda@boccherini.it
-                    </a>
-                </p>
-            </div>
-
-            <div className="contact-block">
-                <h3>{t('contact.collab.title')}</h3>
-                <p>
-                    <a href="mailto:social@leonardomelchionda.com">
-                        social@leonardomelchionda.com
                     </a>
                 </p>
             </div>

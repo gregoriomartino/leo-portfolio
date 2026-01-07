@@ -1,17 +1,17 @@
 .footer {
     width: 100%;
-    padding: 20px 10%;
-    background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
+    padding: 10px 10%;
+    background: linear-gradient(120deg, #e7f1fe 0%, #e0e7ff 50%, #c8d6ff 100%);
     color: #000000;
     text-align: center;
-    font-family: 'Spectral', serif;
+    font-family: 'Zurich', serif;
     font-weight: 400;
     box-sizing: border-box;
     opacity: 0.85;
 }
 
 .footer p {
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     font-size: 0.9rem;
 }
 

@@ -1,72 +1,122 @@
+/* Sezione generale */
 .research {
-    width: 100%;
-    background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
-    padding: 100px 20px 50px 20px;
-    /* 20px di spazio ai lati */
-    font-family: 'Spectral', serif;
-    box-sizing: border-box;
-    /* assicura che padding non aumenti la larghezza */
+  width: 100%;
+  background: linear-gradient(120deg, #e7f1fe 0%, #e0e7ff 50%, #c8d6ff 100%);
+  padding: 80px 10px 40px 10px;
+  font-family: 'Zurich', serif;
+  box-sizing: border-box;
 }
 
-.research .content {
+/* Contenitore interno centrato */
+.research-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Titolo + sottotitolo piccolo */
+.research-title {
+  font-weight: 300;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  line-height: 1.4;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.research-title .desc-small {
+  display: block;
+  font-size: 0.4em;
+  font-weight: 300;
+}
+
+/* --- DESKTOP: grid 2 colonne (testo + immagine) --- */
+@media (min-width: 769px) {
+  .research-row {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
+    column-gap: 40px;
+    align-items: flex-start;
+  }
+
+  /* testo “normale” solo colonna 1 */
+  .research-desc,
+  .research-publication {
+    grid-column: 1;
+  }
+
+  /* presentation a tutta larghezza (colonna 1 + 2) */
+  .research-presentation {
+    grid-column: 1 / -1; /* span di tutte le colonne */
+  }
+
+  /* Immagine grande in colonna 2 (desktop) */
+  .research-image {
+    grid-column: 2;
     width: 100%;
-    text-align: center;
     max-width: none;
-    /* niente limite di larghezza */
-}
-
-/* Titolo */
-.research h2 {
-    font-weight: 500;
-    font-size: clamp(1.6rem, 4vw, 2.8rem);
-    line-height: 1.5;
-    color: #222;
-    margin-bottom: 25px;
-}
-
-/* Paragrafo */
-.research p {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Immagine */
-.research .image {
-    width: 100%;
-    max-width: 650px;
-    margin: 30px auto 10px auto;
+    height: auto;
+    margin-top: 30px;
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-    display: block;
+  }
+}
+
+/* stile testo comune */
+.research-desc,
+.research-publication,
+.research-presentation {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Link */
 .research a {
-    color: #1a4c73;
-    font-weight: 600;
-    text-decoration: underline;
+  color: #1a4c73;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .research a:hover {
-    opacity: .7;
+  opacity: 0.7;
 }
 
-.research-content p.full-width {
+/* --- MOBILE: una colonna, ordine custom --- */
+@media (max-width: 768px) {
+  .research-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 1) immagine */
+  .research-image {
+    order: 1;
     max-width: 100%;
-    /* nessun limite di larghezza */
-    text-align: left;
-    /* allinea il testo a sinistra */
-    padding: 0 20px;
-    /* spazio ai bordi */
-    margin: 0 auto 20px auto;
-}
+  }
+
+  /* 2) description */
+  .research-desc {
+    order: 2;
+    width: 100%;
+  }
+
+  .research-publication {
+    order: 3;
+    width: 100%;
+  }
+
+  .research-presentation {
+    order: 4;
+    width: 100%;
+  }
+
+  .research-title {
+    text-align: justify;
+  }
 
 
-.research-content p {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 20px;
 }

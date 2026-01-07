@@ -1,36 +1,109 @@
+/* Sezione About: verticale + background + 20px ai lati */
 .about {
   min-height: calc(100vh - 150px);
   max-width: 100%;
-  padding: 100px 20px 50px 20px;
+  padding-top: 100px;
   padding-bottom: 50px;
-  background: linear-gradient(120deg, #297088, #cbb0ff, #f0dfff);
-  font-family: 'Spectral', serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(120deg, #e7f1fe 0%, #e0e7ff 50%, #c8d6ff 100%);
+  font-family: 'Zurich', serif;
 }
 
-/* Contenitore full-width */
-.about-fullwidth {
-  width: 100%;
-  padding: 0 20px;
-  /* spazio dai bordi */
-  box-sizing: border-box;
-  margin-bottom: 30px;
+/* NON serve più gestire padding su page-container.about, puoi togliere questo:
+.page-container.about { ... }
+*/
+
+/* Stesso contenitore per testo bio e tours */
+.about-fullwidth,
+.about-tours {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Paragrafo stile Projects */
+/* Testo biografico */
 .about-fullwidth p {
-  max-width: none;
-  /* nessun limite */
   width: 100%;
   font-size: 1.2rem;
   line-height: 1.6;
   margin: 0 auto 20px auto;
-  text-align: left;
+  text-align: justify;
   color: #333;
 }
 
-/* Responsive */
+/* Responsive testo bio */
 @media (max-width: 768px) {
   .about-fullwidth p {
     font-size: 1rem;
   }
+}
+
+/* Tours */
+.about-tours {
+  margin-top: 40px;
+}
+
+/* Blocco per anno */
+.tour-year {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background: #c8d6ff;
+  padding: 8px 12px;
+}
+
+.tour-year > summary {
+ cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  background-color: #c8d6ff; /* colore del menu */
+  color: #333;            /* colore testo anno */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.tour-year[open] > summary {
+  margin-bottom: 8px;
+}
+
+.tour-year summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Contenuto interno dell’anno */
+.tour-year-content {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Singola riga evento: titolo — testo */
+.tour-line {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 2px;
+  align-items: baseline;
+}
+
+.tour-title {
+  font-weight: 500 !important;
+  font-size: 0.8rem !important;
+}
+
+.tour-separator {
+  opacity: 0.6;
+}
+
+.tour-text,
+.tour-text p {
+  font-size: 0.8rem !important;
+}
+/* Link = stesso stile del testo, ma cliccabili */
+.tour-text a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+  font-style: inherit;
 }

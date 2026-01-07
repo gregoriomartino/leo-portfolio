@@ -8,25 +8,29 @@
     },
     "home": {
         "title": "Leonardo Melchionda",
-        "subtitle": "guitarist, sound artist, researcher"
+        "subtitle": "guitarist, composer, researcher"
     },
     "projects": {
-        "title": "UPCOMING ALBUM RELEASE",
+        "title": "",
         "albumTitle": "998",
         "albumTitle2": "Prelude Fugue Allegro",
         "description": "998 ",
         "description0": "is a transformative sonic journey.",
         "description1": "Guided by the phantasmagoric sound of an orange electric guitar, this experience leads to discovering an unforeseen horizon where different music styles resonate together. J.S. Bach’s masterpiece Prelude, Fugue, Allegro (BWV 998) is the starting point from which a sonic constellation of new music languages is shaped around drone music, avant-garde, post-rock, psychedelic music and minimalism.",
-        "description2": "In 998 the compositional material of Bach's piece - originally written for the lautenwerk, a keyboard instrument similar to the harpsichord but sounding like the archlute - is deconstructed and distorted as if it goes through an existential trip made of electric sounds. While preserving the work’s original three-part development, this interpretative invention for electric guitar traces a path that begins with the intuition of the higher harmonics revealed by the long sustained tones of the Prelude, then resolves into the hypnotic repetition of the Fugue’s subject as it varies and layers over time, building toward imposing walls of noise at the moment of maximum paroxysm, only to disintegrate in an instant and finally rise again in the ethereal chord progressions of the Allegro. 998 spins upon itself, eventually returning to new life and inspiring multiple imaginary scenarios of listening and creation. This music outlines a tour through distant musical styles celebrating the pure essence and energy of sound.",
-        "description3": "Leonardo Melchionda, electric guitar",
-        "description4": "Music composed and performed by Leonardo Melchionda.",
-        "description5": "Released on Setola di Maiale, 23th January 2026."
+        "description2": "In 998 the compositional material of Bach's piece - originally written for the <i>lautenwerk</i>, a keyboard instrument similar to the harpsichord but sounding like the archlute - is deconstructed and distorted as if it goes through an existential trip made of electric sounds. While preserving the work’s original three-part development, this interpretative invention for electric guitar traces a path that begins with the intuition of the higher harmonics revealed by the long sustained tones of the Prelude, then resolves into the hypnotic repetition of the Fugue’s subject as it varies and layers over time, building toward imposing walls of noise at the moment of maximum paroxysm, only to disintegrate in an instant and finally rise again in the ethereal chord progressions of the Allegro. ",
+        "description3": "998 spins upon itself, eventually returning to new life and inspiring multiple imaginary scenarios of listening and creation. This music outlines a tour through distant musical styles celebrating the pure essence and energy of sound.",
+        "description4": "Leonardo Melchionda, <i>electric guitar</i>",
+        "description5": "Music composed and performed by Leonardo Melchionda",
+        "description6": "Released on Setola di Maiale, 23th January 2026.",
+        "linkCd": "Get your CD and download digital album"
+
     },
     "research": {
-        "title": "Multisensory Sounds: towards an accessible experience of music for Deaf and Hard of Hearing people",
-        "description1": "This research studies innovative compositional and performative practices to facilitate multisensory experiences of music accessible to Deaf and hard of hearing people through vibrotactile systems to stimulate haptic perception of sound. It also studies the possibilities to facilitate a better music appreciation for cochlear implant users by developing a specific protocol of neurosensory rehabilitation to listening.",
-        "description2": "Developed in a multidisciplinary context, this research collaborates with the otolaryngology department of the University Hospital in Siena, and with the biorobotics institutes of the University of Siena and the School of Advanced Studies Sant'Anna in Pisa. It adopts a qualitative methodology based on collective composition workshops, interviews, and focus groups. The expected results include an accessible multisensory performance and a dissertation documenting the entire process.",
-        "presentation": "Scientific poster presentation at the Third ANDA Conference at the “A. Vivaldi” Conservatory of Music in Alessandria, 17-19 October 2025;",
+        "title": "Multisensory Sounds <1/>Towards an accessible experience of music for Deaf and Hard of Hearing people",
+        "description1": "This research studies innovative compositional and performative practices to facilitate multisensory experiences of music accessible to Deaf and hard of hearing people through vibrotactile systems to stimulate haptic perception of sound. It also studies the possibilities to facilitate a better music appreciation for cochlear implant users by developing a specific protocol of neurosensory rehabilitation to listening. <1/>Developed in a multidisciplinary context, this research collaborates with the otolaryngology department of the University Hospital in Siena, and with the biorobotics institutes of the University of Siena and the School of Advanced Studies Sant'Anna in Pisa. It adopts a qualitative methodology based on collective composition workshops, interviews, and focus groups. The expected results include an accessible multisensory performance and a dissertation documenting the entire process.",
+        "publication": "<bold>Publications</bold>",
+        "presentation": "Scientific poster presentation at the Third ANDA Conference at the “A. Vivaldi” Conservatory of Music in Alessandria, 17-19 October 2025, for more information visit the website of ",
+        "read": "Read ",
         "altImage": "research"
     },
     "about": {
@@ -40,16 +44,13 @@
     "contact": {
         "title": "Contact",
         "music": {
-            "title": "Music, Guitar, Philosophy, Current Events, Life, Dreams"
+            "title": "General Info and Bookings"
         },
         "research": {
             "title": "Research"
         },
-        "collab": {
-            "title": "Collaborations and Bookings"
-        },
         "follow": {
-            "title": "Follow Me"
+            "title": "Follow"
         }
     },
     "footer": {
